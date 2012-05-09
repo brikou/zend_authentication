@@ -1,0 +1,30 @@
+{
+    "name": "brikou/zend_authentication",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Authentication Library",
+    "keywords": [
+        "zend framework",
+        "authentication"
+    ],
+    "homepage": "https://github.com/brikou/zend_authentication",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_db": "*",
+        "brikou/zend_http": "*",
+        "brikou/zend_info-card": "*",
+        "brikou/zend_ldap": "*",
+        "brikou/zend_session": "*",
+        "brikou/zend_uri": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Authentication": "" }
+    }
+}
